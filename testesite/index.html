@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ytre Sites e Tecnologia — Criamos sites modernos e profissionais para o seu negócio.">
+    <meta name="keywords" content="Ytre, Sites, Tecnologia, Desenvolvimento Web, Landing Page">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&family=Tilt+Warp&display=swap" rel="stylesheet">
+    <title>Ytre Sites — Sua Jornada Digital</title>
+</head>
+<body>
+
+<!-- ===== CURSOR PERSONALIZADO ===== -->
+<div class="cursor" id="cursor"></div>
+<div class="cursor-dot" id="cursor-dot"></div>
+
+<!-- ===== HEADER ===== -->
+<header id="header">
+    <div class="logo">
+        <a href="#" aria-label="Ytre Sites - Página inicial">
+            <img src="imagens/yttrelogo.png" alt="Ytre Sites">
+        </a>
+    </div>
+    <nav aria-label="Menu principal">
+        <ul class="menu">
+            <li><a href="#inicio" class="menu-link ativo">Home</a></li>
+            <li><a href="#servicos" class="menu-link">Serviços</a></li>
+            <li><a href="#sobre" class="menu-link">Sobre</a></li>
+            <li><a href="#contato" class="menu-link btn-contato">Contato</a></li>
+        </ul>
+    </nav>
+    <button class="menu-mobile" aria-label="Abrir menu" id="menu-toggle">
+        <span></span><span></span><span></span>
+    </button>
+</header>
+
+<main>
+
+    <!-- ===== HERO ===== -->
+    <section class="hero" id="inicio">
+        <div class="hero-bg">
+            <div class="orb orb-1"></div>
+            <div class="orb orb-2"></div>
+            <div class="orb orb-3"></div>
+            <div class="grid-lines"></div>
+        </div>
+
+        <div class="hero-content">
+            <div class="hero-text">
+                <span class="badge">✦ Desenvolvimento Web Premium</span>
+                <h1 class="hero-title">
+                    Sua Jornada<br>
+                    <span class="gradient-text">Digital</span><br>
+                    Começa Aqui
+                </h1>
+                <p class="hero-desc">Criamos sites modernos, rápidos e profissionais que transformam visitantes em clientes.</p>
+                <div class="hero-cta">
+                    <a href="#contato" class="btn-primary">Solicitar Orçamento</a>
+                    <a href="#servicos" class="btn-ghost">Ver Serviços ↓</a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <strong>50+</strong>
+                        <span>Projetos</span>
+                    </div>
+                    <div class="stat-divider"></div>
+                    <div class="stat">
+                        <strong>100%</strong>
+                        <span>Responsivos</span>
+                    </div>
+                    <div class="stat-divider"></div>
+                    <div class="stat">
+                        <strong>24h</strong>
+                        <span>Suporte</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hero-visual">
+                <div class="browser-mockup">
+                    <div class="browser-bar">
+                        <div class="browser-dots">
+                            <span></span><span></span><span></span>
+                        </div>
+                        <div class="browser-url">ytre.com.br</div>
+                    </div>
+                    <div class="browser-screen">
+                        <img src="/imagens/telasite.png" alt="Exemplo de site criado pela Ytre">
+                    </div>
+                </div>
+                <div class="float-card float-card-1">
+                    <span class="float-icon">⚡</span>
+                    <div>
+                        <strong>Alta Performance</strong>
+                        <small>Score 98/100</small>
+                    </div>
+                </div>
+                <div class="float-card float-card-2">
+                    <span class="float-icon">📱</span>
+                    <div>
+                        <strong>Mobile First</strong>
+                        <small>Todos os dispositivos</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="scroll-hint">
+            <span>Scroll</span>
+            <div class="scroll-line"></div>
+        </div>
+    </section>
+
+    <!-- ===== MARQUEE ===== -->
+    <div class="marquee-wrapper">
+        <div class="marquee-track">
+            <span class="marquee-item fontnew">Transformando seu sonho em realidade digital</span>
+            <span class="marquee-sep">✦</span>
+            <span class="marquee-item fontnew">Sites Modernos e Responsivos</span>
+            <span class="marquee-sep">✦</span>
+            <span class="marquee-item fontnew">Landing Pages de Alta Conversão</span>
+            <span class="marquee-sep">✦</span>
+            <span class="marquee-item fontnew">Transformando seu sonho em realidade digital</span>
+            <span class="marquee-sep">✦</span>
+            <span class="marquee-item fontnew">Sites Modernos e Responsivos</span>
+            <span class="marquee-sep">✦</span>
+            <span class="marquee-item fontnew">Landing Pages de Alta Conversão</span>
+            <span class="marquee-sep">✦</span>
+        </div>
+    </div>
+
+    <!-- ===== SERVIÇOS ===== -->
+    <section class="servicos" id="servicos">
+        <div class="section-header">
+            <span class="section-tag">O que fazemos</span>
+            <h2>Nossos <span class="gradient-text">Serviços</span></h2>
+            <p>Soluções digitais completas para o seu negócio crescer online.</p>
+        </div>
+
+        <div class="servicos-grid">
+            <div class="servico-card">
+                <div class="servico-icon">
+                    <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                        <rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/>
+                    </svg>
+                </div>
+                <div class="servico-number">01</div>
+                <h3>Criação de Sites</h3>
+                <p>Sites personalizados, responsivos e otimizados para seu negócio se destacar no mundo digital.</p>
+                <a href="#contato" class="servico-link">Saiba mais →</a>
+            </div>
+
+            <div class="servico-card destaque">
+                <div class="servico-icon">
+                    <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/>
+                    </svg>
+                </div>
+                <div class="servico-number">02</div>
+                <h3>Landing Pages</h3>
+                <p>Páginas de alta conversão desenvolvidas para transformar visitantes em clientes reais.</p>
+                <a href="#contato" class="servico-link">Saiba mais →</a>
+                <div class="servico-popular">Popular</div>
+            </div>
+
+            <div class="servico-card">
+                <div class="servico-icon">
+                    <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/>
+                    </svg>
+                </div>
+                <div class="servico-number">03</div>
+                <h3>Manutenção e Suporte</h3>
+                <p>Já tem um site? Atualizamos, otimizamos e evoluímos o seu projeto conforme sua necessidade.</p>
+                <a href="#contato" class="servico-link">Saiba mais →</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== SOBRE / CTA ===== -->
+    <section class="cta-section" id="sobre">
+        <div class="cta-inner">
+            <div class="cta-text">
+                <span class="section-tag">Por que a Ytre?</span>
+                <h2>Tecnologia que<br><span class="gradient-text">gera resultados</span></h2>
+                <p>Somos especialistas em criar experiências digitais que conectam marcas às pessoas. Cada projeto é tratado com dedicação total, do briefing ao lançamento.</p>
+                <ul class="feature-list">
+                    <li><span>✓</span> Design moderno e exclusivo</li>
+                    <li><span>✓</span> Entrega rápida e pontual</li>
+                    <li><span>✓</span> Suporte contínuo pós-lançamento</li>
+                    <li><span>✓</span> SEO integrado desde o início</li>
+                </ul>
+            </div>
+            <div class="cta-action">
+                <div class="cta-card">
+                    <h3>Pronto para começar?</h3>
+                    <p>Entre em contato e receba um orçamento gratuito em até 24h.</p>
+                    <a href="https://wa.me/43920002969" class="btn-primary btn-full" id="contato">Faça seu orçamento</a>
+                    <div class="cta-guarantee">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                        Sem compromisso — 100% gratuito
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</main>
+
+<!-- ===== FOOTER ===== -->
+<footer>
+    <div class="footer-inner">
+        <div class="footer-brand">
+            <img src="imagens/yttrelogo.png" alt="Ytre Sites" class="footer-logo">
+            <p>Transformando ideias em experiências digitais memoráveis.</p>
+        </div>
+        <nav class="footer-nav" aria-label="Links do rodapé">
+            <ul>
+                <li><a href="#inicio">Home</a></li>
+                <li><a href="#servicos">Serviços</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="footer-bottom">
+        <p>&copy; 2026 Ytre Sites. Todos os direitos reservados.</p>
+    </div>
+</footer>
+
+<script>
+// Cursor personalizado
+const cursor = document.getElementById('cursor');
+const dot = document.getElementById('cursor-dot');
+let mouseX = 0, mouseY = 0, curX = 0, curY = 0;
+
+document.addEventListener('mousemove', e => {
+    mouseX = e.clientX; mouseY = e.clientY;
+    dot.style.transform = `translate(${mouseX - 4}px, ${mouseY - 4}px)`;
+});
+
+function animateCursor() {
+    curX += (mouseX - curX) * 0.12;
+    curY += (mouseY - curY) * 0.12;
+    cursor.style.transform = `translate(${curX - 20}px, ${curY - 20}px)`;
+    requestAnimationFrame(animateCursor);
+}
+animateCursor();
+
+document.querySelectorAll('a, button, .servico-card').forEach(el => {
+    el.addEventListener('mouseenter', () => cursor.classList.add('hover'));
+    el.addEventListener('mouseleave', () => cursor.classList.remove('hover'));
+});
+
+// Header scroll
+const header = document.getElementById('header');
+window.addEventListener('scroll', () => {
+    header.classList.toggle('scrolled', window.scrollY > 60);
+});
+
+// Scroll reveal
+const observer = new IntersectionObserver(entries => {
+    entries.forEach(e => {
+        if (e.isIntersecting) {
+            e.target.classList.add('visible');
+            observer.unobserve(e.target);
+        }
+    });
+}, { threshold: 0.12 });
+
+document.querySelectorAll('.servico-card, .hero-text, .hero-visual, .cta-text, .cta-card').forEach(el => {
+    el.classList.add('reveal');
+    observer.observe(el);
+});
+
+// Menu mobile
+document.getElementById('menu-toggle').addEventListener('click', function() {
+    document.querySelector('.menu').classList.toggle('open');
+    this.classList.toggle('active');
+});
+
+// Smooth scroll
+document.querySelectorAll('a[href^="#"]').forEach(a => {
+    a.addEventListener('click', e => {
+        const target = document.querySelector(a.getAttribute('href'));
+        if (target) { e.preventDefault(); target.scrollIntoView({ behavior: 'smooth' }); }
+    });
+});
+</script>
+
+</body>
+</html>
